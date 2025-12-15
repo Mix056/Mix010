@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Milena Larrosa">
+  <title>Silksong Fanpage</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+  <div class="fotos">
+
+    <!-- Título principal -->
+    <h1>Hollow Knight: Silksong</h1>
+
+    <!-- Logo de Team Cherry -->
+    <a href="https://www.teamcherry.com.au/" target="_blank">
+      <img class="imas" src="./imagenes/teamcherry.jpg" alt="Team Cherry">
+    </a>
+
+
+
+    <!-- Redes sociales -->
+    <div class="derecha">
+    <a href="https://x.com/TeamCherryGames" target="_blank">
+      <img class="laf" src="./imagenes/x.png" alt="X">
+    </a>
+
+    <a href="https://www.youtube.com/@TeamCherry" target="_blank">
+      <img class="lef" src="./imagenes/youtu.jpg" alt="YouTube">
+    </a>
+
+    <a href="https://www.instagram.com/teamcherryunofficial/" target="_blank">
+      <img class="lif" src="./imagenes/ins.jpg" alt="Instagram">
+    </a>
+
+    <a href="https://en.wikipedia.org/wiki/Hollow_Knight:_Silksong" target="_blank">
+      <img class="laf" src="./imagenes/wiki.jpg" alt="wikipedia">
+    </a>
+
+   </div>
+  </div>
+</header>
+
+<nav>
+  <!-- Botón modo oscuro -->
+  <button onclick="cambiarFondo()">Modo oscuro</button> | |  <a href="contactos.html"> Ir a la pagina de contactos</a>
+
+</nav>
+
+<section>
+
+  <h1 class="h1"> Silksong es la esperada secuela del aclamado juego... Hollow Knight </h1>
+
+  <h2 class="rojito">Personajes principales</h2>
+
+<div class="listas">
+  <ul>
+    <li>Hornet</li>
+    <li>Sherma</li>
+    <li>Shakra</li>
+    <li>Lace</li>
+    <li>Bell Beast</li>
+    <li>Garmond y Zaza</li>
+  </ul>
+</div>
+
+  <h2 class="rojitodos">Información de los personajes</h2>
+
+<div class="listas">
+  <ol>
+    <li>Hornet: es un personaje clave...</li>
+    <li>Sherma: es un personaje NPC...</li>
+    <li>Shakra: es un personaje clave...</li>
+    <li>Lace: es una antagonista recurrente...</li>
+    <li>La Bestia Campana: es un jefe inicial...</li>
+    <li>Garmond y Zaza: son un par de NPCs...</li>
+  </ol>
+</div>
+
+</section>
+
+<h2 class="rojos">Así se ve el videojuego</h2> <!-- EL CARRUSEL DE IMAGENES DE BOOTSTRAP (aca empieza)-->
+
+<div id="carouselSilksong" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="./imagenes/foto_juego1.jpg" class="d-block mx-auto" alt="Imagen del juego 1">
+    </div>
+
+    <div class="carousel-item">
+      <img src="./imagenes/foto_juego2.jpg" class="d-block mx-auto" alt="Imagen del juego 2">
+    </div>
+
+    <div class="carousel-item">
+      <img src="./imagenes/foto_juego3.jpg" class="d-block mx-auto" alt="Imagen del juego 3">
+    </div>
+
+    <div class="carousel-item">
+      <img src="./imagenes/foto_juego4.jpg" class="d-block mx-auto" alt="Imagen del juego 4">
+    </div>
+
+  </div>
+
+  <!-- Botones -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselSilksong" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselSilksong" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div> <!-- EL CARRUSEL DE IMAGENES DE BOOTSTRAP (aca termina)-->
+
+<!-- Musica -->
+<audio src="audio/cogwork.mp3" autoplay></audio>
+
+<!-- JS propio -->
+<script src="script.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

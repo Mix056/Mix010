@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
+
+body {
+  background-color: #FEB9BC;
+  font-family: ´'Open Sans', sans-serif;
+}
+
+/* Logo Team Cherry */
+.logo {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+/* Títulos */
+h1 {
+  color: #8D1616;
+  text-align: center;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h2 {
+  color: #8D1616;
+  text-decoration: underline;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+}
+/* Listas */
+li {
+  color: #440803;
+}
+
+/* Clases rojas */
+.rojito  {
+  font-size: 32px;
+  text-align: center;
+}
+
+.rojitodos  {
+  font-size: 32px;
+  text-align: center;
+}
+
+.rojos {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Imágenes */
+img {
+  width: 650px;
+  height: auto;
+}
+
+.imas {
+  width: 100px;
+}
+
+.laf, .lef, .lif {
+  width: 50px;
+}
+
+/* Layout */
+.fotito {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.fotos {
+  width: 100%;
+  background-color: #FEB9BC;
+  padding: 15px;
+  font-family: ´'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fotos h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+
+/* ===== MODO OSCURO ===== */
+.dark {
+  background-color: #1b1b1b;
+  color: #e6e6e6;
+}
+
+.dark .h1,
+.dark h2,
+.dark li {
+  color: #FFA6A6;
+}
+
+/* Centramos listas */
+.listas {
+  display: flex;
+  justify-content: center;
+}
+
+.listas ul,
+.listas ol {
+  text-align: left;
+  font-size: 22px;
+}
+
+.h1 {
+  color: #8D1616;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+
+/* ======================================== */
+/*  pagina de contactos / contactos.html    */
+/* ======================================== */
+
+.contacto {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.texto-contacto {
+  font-size: 22px;
+  color: #440803;
+  margin: 20px;
+}
+
+/* Botones de redes */
+.contacto-redes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.boton-contacto {
+  background-color: #8D1616;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hover simple */
+.boton-contacto:hover {
+  background-color: #5f0f0f;
+}
+
+/* Botón volver */
+.volver {
+  margin-top: 40px;
+}
+
+.boton-volver {
+  background-color: transparent;
+  border: 2px solid #8D1616;
+  color: #8D1616;
+  padding: 10px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.boton-volver:hover {
+  background-color: #8D1616;
+  color: white;
+}
